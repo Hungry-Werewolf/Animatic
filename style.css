@@ -1,0 +1,25 @@
+.test {
+width: 120px;
+height: 300px;
+border-radius: 10px;
+position: relative; 
+-webkit-animation: iliketomoveit 5s infinite; 
+animation: iliketomoveit 5s infinite;
+} 
+@-webkit-keyframes iliketomoveit {
+        0%   {left: 0px;} 
+        25%  {left: 500px; background: rgb(252, 107, 4);} 
+        50%  {left: 300px;} 
+		75%  {left: 100px;} 
+		85%  {top: 200px;} 
+        100% {left: 0px; background: rgb(239, 200, 5);} 
+        } 
+	
+@keyframes iliketomoveit {
+        0%   {left: 0px;} 
+        25%  {left: 500px; background: rgb(252, 107, 4);} 
+        50%  {left: 300px;} 
+		75%  {left: 100px;} 
+		85%  {top: 200px;} 
+        100% {left: 0px; background: rgb(239, 200, 5);} 
+        } 
